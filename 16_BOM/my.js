@@ -79,9 +79,8 @@ localStorage.clear()   // 清空，全部删掉。
 // sessionStorage是临时存储，关闭页面就会丢失
 
 
-// 事件
 
-// 浏览器常见事件
+// 常见事件
 // onload事件
 onload = function () {
     console.log("页面加载完了");   // 在页面加载完之后才会执行这个函数.(图片,视频,dom)
