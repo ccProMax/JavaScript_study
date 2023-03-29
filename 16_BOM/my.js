@@ -41,3 +41,4 @@ btn.onclick = function () {
     // scrollTo(0,0)   // 当btn被点击，就执行这个函数，回到x为0，y为0的位置。
     document.documentElement.scrollTop = 0
 }
+//123123
