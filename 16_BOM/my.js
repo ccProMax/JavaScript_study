@@ -37,7 +37,7 @@ console.log(document.documentElement.scrollLeft || document.body.scrollLeft);   
 // close()     // 关闭当前标签页
 // 回到顶部
 btn.onclick = function () {
-    scrollTo(0,0)   // 当btn被点击，就执行这个函数，回到x为0，y为0的位置。
+    scrollTo(0, 0)   // 当btn被点击，就执行这个函数，回到x为0，y为0的位置。
     document.documentElement.scrollTop = 0
 }
 //打开新标签页,(btn是html中的一个button的id)
@@ -53,9 +53,9 @@ btn.onclick = function () {
 
 // 浏览器历史记录
 // history是window对象的一个属性，但这个属性还有它的方法：
-history.back()   // 回退到浏览器上一页（前提是要有上一页才行）
-history.forward()  // 进入到浏览器的下一页（前提是用户回过上一页才能知道上一页的下一页）
-history.go(-2)  // -2表示往回退两个页面，-1就退一个，2就往前2个。
+// history.back()   // 回退到浏览器上一页（前提是要有上一页才行）
+// history.forward()  // 进入到浏览器的下一页（前提是用户回过上一页才能知道上一页的下一页）
+// history.go(-2)  // -2表示往回退两个页面，-1就退一个，2就往前2个。
 
 // 浏览器本地存储
 // 注意，这里只能存字符串，不能存对象，但你可以存json字符串，然后转换为对象。
@@ -101,9 +101,6 @@ onscroll = function () {  // 当页面滚动的时候会执行这个函数.滚�
     console.log(document.documentElement.scrollLeft || document.body.scrollLeft);   // 横向距离
     // 这样的话在滚动时就会猛的打印当前位置举例顶部的距离。
 }
-
-// 记住用户名案例
-
 
 
 
